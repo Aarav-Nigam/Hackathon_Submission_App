@@ -1,0 +1,10 @@
+.my-dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #F5F5F5;
+  }
+  
+  .my-dropzone p {
+    text-align: center;
+  }

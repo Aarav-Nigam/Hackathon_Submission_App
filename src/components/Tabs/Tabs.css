@@ -1,0 +1,32 @@
+#search{
+    outline: none;
+}
+#searchBox{
+    height: 35px;
+}
+/* option:checked {
+    background-color: yellow;
+} */
+option:hover{
+    background-color: yellow;
+    border-radius: 10;
+}
+select {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px; /* make select rounded */
+  }
+
+  /* Style the option elements */
+
+
+  /* Change the background color of an option on hover */
+ 
+#select_sort_type * {
+  border-radius: 10%;
+  background-color: yellow;
+  margin: 4px;
+  padding: 2px;
+}

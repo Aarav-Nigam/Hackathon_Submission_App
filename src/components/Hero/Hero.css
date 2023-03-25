@@ -1,0 +1,9 @@
+#hero{
+    background-image: url(../../assets/waves.png);
+    background-color: #003145;
+    height: 400px;
+    color: white;
+}
+#bulb{
+    height:50%;
+}
