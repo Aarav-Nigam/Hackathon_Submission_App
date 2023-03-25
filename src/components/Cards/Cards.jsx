@@ -2,11 +2,11 @@ import React from 'react'
 import Card from './Card/Card';
 import './Cards.css'
 import InterviewMe from '../../assets/InterviewMe.png'
-import LoremIpsum from '../../assets/Lorem Ipsum.png'
-import PotterIpsum from '../../assets/Potter Ipsum.png'
-import PizzaIpsum from '../../assets/Pizza ipsum.png'
-import FigmaIpsum from '../../assets/Figma Ipsum.png'
-import OfficeIpsum from '../../assets/Office Ipsum.png'
+import LoremIpsum from '../../assets/Lorem ipsum.png'
+import PotterIpsum from '../../assets/Potter ipsum.png'
+import PizzaIpsum from '../../assets/Pizza Ipsum.png'
+import FigmaIpsum from '../../assets/Figma ipsum.png'
+import OfficeIpsum from '../../assets/Office ipsum.png'
 function Cards({ tab, search, sortType }) {
     var CardsData = [];
     if (localStorage.getItem('aiPlanetDB')) {
