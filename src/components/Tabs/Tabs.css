@@ -24,9 +24,7 @@ select {
 
   /* Change the background color of an option on hover */
  
-#select_sort_type * {
-  border-radius: 10%;
-  background-color: yellow;
-  margin: 4px;
-  padding: 2px;
+#select_sort_type {
+
+    width: 80px;
 }
