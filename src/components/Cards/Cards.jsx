@@ -119,8 +119,8 @@ function Cards({ tab, search, sortType }) {
     }
     return (
         <div id='cards' className='row'>
-            {tab == 0 && CardsData.filter(obj => obj.title.includes(search)).map(obj => <Card obj={obj} />)}
-            {tab == 1 && CardsData.filter(obj => obj.title.includes(search)).filter(obj => obj.favourite).map(obj => <Card obj={obj} />)}
+            {tab == 0 && CardsData.filter(obj => obj.title.toLowerCase().includes(search.toLowerCase())).map(obj => <Card obj={obj} />)}
+            {tab == 1 && CardsData.filter(obj => obj.title.toLowerCase().includes(search.toLowerCase())).filter(obj => obj.favourite).map(obj => <Card obj={obj} />)}
         </div>
     )
 }
